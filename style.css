@@ -109,7 +109,9 @@
 
 .section-3-body {
     height: 300px;
-    background: linear-gradient(to right, rgba(255, 166, 0, 0.465), rgb(174, 117, 11) 20%, transparent 90%);
+    /* background: linear-gradient(to right, rgba(255, 166, 0, 0.465), rgb(174, 117, 11) 20%, transparent 90%); */
+    background-image: url(./images/gradient2.png);
+    transition-property: 95%;
 }
 
 .section-3-body div {
@@ -127,8 +129,8 @@
     width: 160px;
     height: 40px;
     border-radius: 10px;
-    background-color: orangered;
-    color: white;
+    background-color: rgb(251, 251, 251);
+    color: rgb(229, 18, 18);
     border: none;
 }
 
